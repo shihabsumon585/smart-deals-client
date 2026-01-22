@@ -1,5 +1,6 @@
 import React, { use } from 'react';
-import Product from '../Product/product';
+import Product from '../Product/Product';
+
 
 const LatestProducts = ({ latestProductsPromise }) => {
     const products = use(latestProductsPromise);
